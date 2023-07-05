@@ -1,0 +1,4 @@
+cd jetbot/jetbot
+
+./test-launch "nvarguscamerasrc ! video/x-raw(memory:NVMM),width=600,height=480,framerate=15/1,format=NV12 ! nvvidconv ! nvv4l2h265enc ! h265parse ! rtph265pay name=pay0 pt=96"
+

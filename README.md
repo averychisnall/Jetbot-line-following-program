@@ -1,5 +1,5 @@
 # Jetbot-line-following-program
-A program built for the Jetson Nano which uses the built-in camera to detect a path and follow it.
+A python program built for the Jetson Nano which uses the built-in camera to detect a path and follow it.
 
 # Process for running the code
 1. Open a CLI
